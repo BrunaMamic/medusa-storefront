@@ -3,16 +3,19 @@
 
 This project is a simple storefront that displays products in a grid on the landing page and allows customers to visit a details page for each product. Customers can filter products by collection and choose among the available product variants.
 
-Time spent was approximately 1 week, with a few hours dedicated to the project per day, depending on other commitments and final exams.
+### Time spent 
+was approximately 1 week, with a few hours dedicated to the project per day, depending on other commitments and final exams.
 
-Most challenging implementation was connecting Medusa server with Next.js app. It was my first time working with this kind of integration, so there was a learning curve involved in setting it up correctly. To accomplish that, I carefully followed the documentation and resources provided by Medusa.
+### Most challenging implementation
+was connecting Medusa server with Next.js app. It was my first time working with this kind of integration, so there was a learning curve involved in setting it up correctly. To accomplish that, I carefully followed the documentation and resources provided by Medusa.
 
-I am proud of the implementation of the product details page and its functionality, which embodies a minimalistic and organized design approach. I have incorporated selectors for size and color, enabling customers to customize their product choices. Additionally, I have included a quantity selector for easy adjustment of desired quantities.
+### Most Proud Implementation
+is the product details page and its functionality, which embodies a minimalistic and organized design approach. I have incorporated selectors for size and color, enabling customers to customize their product choices. Additionally, I have included a quantity selector for easy adjustment of desired quantities.
+
 Also, one aspect I'm proud of is the inclusion of small images and arrow navigation for image browsing. This allows customers to easily view different angles or variations of the product .
 
 
 ## Project Structure and Considerations
-
 
 The project follows a modular and component-based approach. Each component represents a specific feature or UI element.
 
