@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Description of project
 
-First, run the development server:
+This project is a simple storefront that displays products in a grid on the landing page and allows customers to visit a details page for each product. Customers can filter products by collection and choose among the available product variants.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Time spent was approximately 1 week, with a few hours dedicated to the project per day, depending on other commitments and final exams.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Most challenging implementation was connecting Medusa server with Next.js app. It was my first time working with this kind of integration, so there was a learning curve involved in setting it up correctly. To accomplish that, I carefully followed the documentation and resources provided by Medusa.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I am proud of the implementation of the product details page and its functionality, which embodies a minimalistic and organized design approach. I have incorporated selectors for size and color, enabling customers to customize their product choices. Additionally, I have included a quantity selector for easy adjustment of desired quantities.
+Also, one aspect I'm proud of is the inclusion of small images and arrow navigation for image browsing. This allows customers to easily view different angles or variations of the product .
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Project Structure and Considerations
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project follows a modular and component-based approach. Each component represents a specific feature or UI element.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Next.js was chosen as the framework for building the storefront due to its strong support for server-side rendering and optimized performance. The project utilizes the pre-built hooks library medusa-react to consume data from the Medusa Store API, enabling seamless integration between the frontend and backend. 
 
-## Deploy on Vercel
+Tailwind CSS was used for styling, providing a utility-first approach and enabling rapid development with its extensive set of pre-defined classes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+TypeScript was adopted throughout the project to enhance code quality and catch potential errors during development. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+As for considerations, I prioritized the user experience and aimed for a clean and intuitive design. I focused on keeping the interface simple and easy to navigate, avoiding unnecessary clutter and distractions. This approach helps users find and interact with products effortlessly.
